@@ -1,0 +1,49 @@
+nav
+{
+  display: flex;
+  float:left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav div
+{
+  padding: 30px;
+}
+nav div a
+{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover
+{
+  font-weight: bold;
+ 
+}
+
+body
+{
+
+   background-image: url("labtop.jpg");
+   background-position:100%;
+   background-repeat: no-repeat;
+   background-size:cover;
+   max-width: 100%;
+   height: auto;
+}
+
+.container .content {
+  position: absolute;
+  
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: auto;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 20%;
+  
+
+}
