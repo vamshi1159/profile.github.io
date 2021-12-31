@@ -39,9 +39,9 @@ html
 .container
 {
   position:absolute;
-  height: 600px;
+  height: fit-content;
   margin-top: 15%;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-bottom: 25%;
   margin-right: 25%;
   width:fit-content;
@@ -53,10 +53,18 @@ html
   text-align: justify;
   font-family: sans-serif;
 }
+.contact
+{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: -5px;
+  text-align: center;
+}
 .circle
 {
   border-radius: 50%;
   float: left;
+  padding-right:10px;
 }
 input[type=text],input[type=email], select, textarea {
   width: 100%;
@@ -76,9 +84,28 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
+
+@media screen and (max-width: 800px) {
+  .contact
+{
+  font-size: medium;
+  margin-top: -5px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .contact
+  {
+    font-size: small;
+    margin-top: -5px;
+    text-align: center;
+  }
+}
